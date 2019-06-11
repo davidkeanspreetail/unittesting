@@ -1,33 +1,64 @@
-.App {
-  text-align: center;
+.app {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.username {
+    color: #f29900;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title {
+    position: relative;
+    font-size: 32px;
+    padding: 16px 0px;
+    border: 1px solid black;
+    margin: 32px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.subtitle {
+    font-size: 12px;
+    margin-bottom: 32px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.math-question {
+    position: relative;
+    padding: 16px 0px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+}
+
+.component-identifier {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    background: white;
+    padding: 0px 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.validation-message {
+    margin-top: 8px;
+}
+
+.api-test {
+    position: relative;
+    padding: 16px 0px;
+    margin-top: 32px;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+.response-message {
+    margin-left: 8px;
+    text-transform: uppercase;
+}
+
+.error {
+    color: #cc1100;
+}
+
+.valid {
+    color: #279f66;
 }
